@@ -4,13 +4,13 @@ Adversarial Interception Mission Oriented Discovery and Disruption Framework, or
 
 - **Adversarial**: the framework has cyber conflict at the center of its constitution, as such, it strives to think of and model cyber threats from both the point of view of the attacker and the defender. The ability to model attack paths (as described by frameworks like MITRE Attack Flow) and incorporate adversarial tradecraft into the conceptualization of threat hunt missions helps hunters stay focused on contextually relevant objectives. The adversarial aspect of the framework is enhanced when adding a threat simulation or purple team approach to the missions.
 - **Interception**: Interception refers to a type of interference in the trajectory or course of action of an agent or an object. It assumes that there are patterns that threat actors employ, since no one is exempt from them, which end up becoming tendencies that shape a specific course of action. As such, interception aims to stop or interfere with the progress of that chain of events. This can be done in various contexts, such as intercepting an encrypted message being transmitted by a C2, or intercepting a phishing campaign on the build in order to frustrate its success.
-- **Mission Oriented**: everything in AMOD2 is a mission. A Threat Hunt Missions is a semantic and operational unit of work that structures threat hunting efforts around a topic, theme, threat actor, etc.
+- **Mission Oriented**: everything in AIMOD2 is a mission. A Threat Hunt Missions is a semantic and operational unit of work that structures threat hunting efforts around a topic, theme, threat actor, etc.
 - **Discovery**: the continuous synthesis of information into different layers of abstraction to help develop contextual awareness and insight. The discovery domain is characterized by the simultaneous scouting of known and unchartered territory. Discovery activities involve data analytics.
 - **Disruption**: the goal of disruption is to break the patterns that the adversary has memorized, either through purposeful training or repetition arising from environmental constraints. Disruption is the act of employing manoeuvres to destabilize the opponent to a degree that dismembers their formation leading to imminent defeat. In cyber operations, disruption takes place when the adversary’s capabilities are so impaired that they are forced into a zone of confusion which imposes a high cost of operations whilst attempting to get back into balance. This state of confusion opens a window of opportunity to achieve defensive mission objectives.
 
 AIMOD2 draws from the approaches described in “The Threat Hunting Shift Part 3: [Adversarial Framework for Tactical Cyber Defense Operations](Adversarial%20Framework%20for%20Tactical%20Cyber%20Defense%20Operations.md)“
 
-# Threat Hunt Missions
+# Threat Hunting Missions
 
 A Threat Hunt Missions is a semantic and operational unit of work that structures threat hunting efforts around a topic, theme, threat actor, etc.
 
@@ -53,7 +53,7 @@ At this level we capture the measurable results of an iteration of a hunt missio
 
 An often overlooked aspect of threat hunting frameworks is the approach to data semiotics and semantics, i.e. **what are the structures that produce sense-making and meaning extraction from data**. Threat Hunting is, in the end, the child of data science and cyber security. 
 
-Data semantics is the ability to interpret data in order to gain a deeper understanding of underlying relationships and patterns that can provide higher levels of insight into the data set. This is a core concept of the AMOD2 framework since it helps uncover the deeper levels of connectedness behind the data.
+Data semantics is the ability to interpret data in order to gain a deeper understanding of underlying relationships and patterns that can provide higher levels of insight into the data set. This is a core concept of the AIMOD2 framework since it helps uncover the deeper levels of connectedness behind the data.
 
 There is, however, one more reason for any threat hunt framework to make its data semantics explicit: *to describe the differentiating factors that bring about diverse hunt types*.
 
@@ -61,15 +61,15 @@ There is, however, one more reason for any threat hunt framework to make its dat
 
 Some threat hunt frameworks break down hunt types by trigger (which team or process triggers a particular hunt), others break it down by data types, e.g. network data vs endpoint data. All these approaches lead to confusing hunt structures and miss the point of what threat hunting is really about: extracting meaning out of data, and devising ways of identifying behavioural patterns. In that regard threat hunting is no different to data science approaches.
 
-For AMOD2, hunt types are differentiated by the position in which we commence our data analysis in the road from data to insight, i.e. the path that leads from atomic, disconnected data points to highly connected, insight-based impact. We call this model the DAIKI: **Data --> Information --> Knowledge --> Insight**. This model is an adaptation of the known [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) (Data, Information, Knowledge and Wisdom).
+For AIMOD2, hunt types are differentiated by the position in which we commence our data analysis in the road from data to insight, i.e. the path that leads from atomic, disconnected data points to highly connected, insight-based impact. We call this model the DAIKI: **Data --> Information --> Knowledge --> Insight**. This model is an adaptation of the known [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) (Data, Information, Knowledge and Wisdom).
 
 ![hunt-data-semantics.excalidraw](./diagrams/hunt-data-semantics.excalidraw.png)
 
 ### DAIKI and Impact
 
-The aim of any threat hunt mission is to produce impact. AMOD2 is mission-driven because it is impact-driven. Impact can be defined as the effect an activity, event or decision produces on the organization's resilience. In cyber threat hunting, our goal is to mitigate threats and help reduce the organization's risk exposure, thus increasing organizational resilience. 
+The aim of any threat hunt mission is to produce impact. AIMOD2 is mission-driven because it is impact-driven. Impact can be defined as the effect an activity, event or decision produces on the organization's resilience. In cyber threat hunting, our goal is to mitigate threats and help reduce the organization's risk exposure, thus increasing organizational resilience. 
 
-But what does impact have to do with data semantics? AMOD2 considers that impact is generated by a threat hunt team at every level of the semantic chain. However, the further along the semantic chain you produce outcomes, the higher the impact and added value that is delivered to an organization. Concomitantly, the further along the semantic chain you begin your hunt mission from, the easier it is to drive your outcomes to the insight stage.
+But what does impact have to do with data semantics? AIMOD2 considers that impact is generated by a threat hunt team at every level of the semantic chain. However, the further along the semantic chain you produce outcomes, the higher the impact and added value that is delivered to an organization. Concomitantly, the further along the semantic chain you begin your hunt mission from, the easier it is to drive your outcomes to the insight stage.
 
 ![hunt-data-semantics-impact.excalidraw](./diagrams/hunt-data-semantics-impact.excalidraw.png)
 
@@ -91,7 +91,7 @@ In other words, there are no context-free situations. When transitioning from on
 
 ![bounded-applicability-data-semantics.excalidraw](./diagrams/bounded-applicability-data-semantics.excalidraw.png)
 
-# Threat Hunt Mission Categorization
+# Threat Hunt Mission Categories
 
 ## DAIKI applied to Threat Hunt Missions
 
@@ -182,12 +182,11 @@ The primary objectives of these hunt missions are:
 
 To accomplish these goals, we will leverage tools and services that provide insight into what is happening outside of the trusted digital surface, as well as traditional SIEM and EDR telemetry.
 
-
 # Threat Hunt Mission Structure
 
 ## CAPEO: Collect - Analyize - Plan - Execute - Outcomes
 
-MOD2 defines a set of phases for all its mission operations called CAPEO: Collection, Analysis, Planning, Execution and Outcomes.
+AIMOD2 defines a set of phases for all its mission operations called CAPEO: Collection, Analysis, Planning, Execution and Outcomes.
 
 ### Collect
 
