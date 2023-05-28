@@ -1,0 +1,8 @@
+{{ $src := .Get "src" }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
+{{ $position := .Get "position" }}
+
+<div style="text-align: {{ $position }};">
+    <img src="{{ $src }}" alt="Image Description" width="{{ $width }}" height="{{ $height }}" />
+</div>

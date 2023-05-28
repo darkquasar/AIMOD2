@@ -1,3 +1,5 @@
+![](./content.en/images/the-cyber-adventurers.png)
+
 # What is Adversarial Interception Mission Oriented Discovery and Disruption?
 
 Adversarial Interception Mission Oriented Discovery and Disruption Framework, or **AIMOD2**, is a structured threat hunting approach to proactively identify, engage and prevent cyber threats denying or mitigating potential damage to the organization. The core concepts that structure AIMOD2 are:
