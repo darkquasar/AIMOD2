@@ -1,5 +1,5 @@
 ---
-weight: 4
+weight: 5
 bookFlatSection: true
 title: "Battlefield Intel"
 ---

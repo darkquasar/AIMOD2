@@ -1,7 +1,7 @@
 ---
 weight: 2
 bookFlatSection: true
-title: "The 4 Domains: Discovery & Disruption"
+title: "Tactical Domains: Discovery & Disruption"
 ---
 
 ## Discovery

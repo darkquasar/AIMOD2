@@ -4,7 +4,7 @@ bookFlatSection: true
 title: "Intro to ADACOP"
 ---
 
-{{% resizeimage src="./diagrams/adacop-v2.png" width="400" height="400" position="center" %}}
+{{% resizeimage src="/diagrams/adacop-v2.png" width="600" height="600" position="center" %}}
 
 # 🧮 Framework Design Principles
 

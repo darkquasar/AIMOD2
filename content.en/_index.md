@@ -3,7 +3,7 @@ title: What is Adversarial Interception Mission Oriented Discovery and Disruptio
 type: docs
 ---
 
-{{% resizeimage src="./images/the-cyber-adventurers.png" width="400" height="400" position="center" %}}
+{{% resizeimage src="./images/AIMOD2-logo-04.png" width="400" height="400" position="center" %}}
 
 
 # What is Adversarial Interception Mission Oriented Discovery and Disruption?
