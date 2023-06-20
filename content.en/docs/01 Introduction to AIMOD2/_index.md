@@ -1,5 +1,5 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "Threat Hunting Missions"
+title: "Introduction to AIMOD2"
 ---

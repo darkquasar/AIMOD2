@@ -4,13 +4,17 @@ bookFlatSection: true
 title: "Intro to ADACOP"
 ---
 
-{{% resizeimage src="/diagrams/adacop-v2.png" width="600" height="600" position="center" %}}
+{{% resizeimage src="/diagrams/adacop-v2-2.png" width="600" height="600" position="center" %}}
+
+Active Defence Adversarial Cyber Operations Framework or **ADACOP**, is a framework for sense-making and understanding the relationships between the different domains of active defence. ADACOP describes four tactical domains, namely: Design, Discover, Disrupt and Defend.
+
+**ADACOP** is one of the foundational frameworks for AIMOD2 because it provides a sense-making device that helps active defenders understand the playing field.
+
+ADACOP aims to layout the problem space that integrates passive and active defence approaches. We base ourselves in the Deleuzian concept of **the problematic space as a generative space**[^1]. To understand this better you can check our [threathunterz blog post here](https://threathunterz.com/posts/threat-hunting/the-way-of-the-intercepting-fist-part-3/)
 
 # 🧮 Framework Design Principles
 
 ADACOP is meant to be used as a loosely coupled set of practical domains that help describe the tactical activities of cyber defence operations. A tactical framework for cyber defence operations should be concerned with categories of actions that help describe engagement environments that provide guidance for a practical course of action.
-
-The design principles that I attempted to follow when constructing this framework are:
 
 The design principles that I attempted to follow when constructing this framework are:
 
@@ -30,6 +34,7 @@ The design principles that I attempted to follow when constructing this framewor
 
 - Cynefin, a sense making framework. Cynefin is a framework for understanding what kind of problem space you are in to guide decisions-making and action. It was created by David Snowden and takes its name from the Welsh word meaning "the place of your multiple belongings.", https://cynefin.io/wiki/Cynefin
 - Alex S. Wilner (2011) Deterring the Undeterrable: Coercion, Denial, and Delegitimization in Counterterrorism, The Journal of Strategic Studies, 34:1, 3-37, DOI: 10.1080/01402390.2011.541760, https://doi.org/10.1080/01402390.2011.541760
+- Deleuze G. (1994), _Difference and repetition_ (Patton P., Trans.). New York, NY: Columbia University Press. (Original work published 1968)
 - MITRE ENGAGE, a framework for planning and discussing adversary engagement operations, https://engage.mitre.org/
 - MITRE ATT&CK, a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations, https://attack.mitre.org/
 - MITRE ATTACK FLOW, a data model with supporting tooling and examples for describing sequences of adversary behaviours. Attack flows help defenders understand, share, and make threat-informed decisions based on the sequence of actions in a cyber-attack., https://ctid.mitre-engenuity.org/our-work/attack-flow/
@@ -37,3 +42,5 @@ The design principles that I attempted to follow when constructing this framewor
 - Cyber Kill Chain, a model for identification and prevention of cyber intrusions activity, https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
 - NIST, a framework that offers a set of guidelines and best practices for managing cybersecurity risks in organizations, the framework provides a common language and a structured approach for organizations to identify, assess, and manage cybersecurity risks in a consistent and repeatable way, https://www.nist.gov/cyberframework
 - Cyber Threat Framework, the Cyber Threat Framework was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries, https://www.dni.gov/index.php/cyber-threat-framework
+
+[^1]: Deleuze G. (1994), _Difference and repetition_ (Patton P., Trans.). New York, NY: Columbia University Press. (Original work published 1968)
