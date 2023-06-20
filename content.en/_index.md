@@ -5,6 +5,7 @@ type: docs
 
 {{% resizeimage src="./images/AIMOD2-logo-04.png" width="400" height="400" position="center" %}}
 
+> Visit our GitHub Repo: https://github.com/darkquasar/AIMOD2 
 
 # What is Adversarial Interception Mission Oriented Discovery and Disruption?
 
