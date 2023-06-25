@@ -7,7 +7,7 @@ title: "The Three Layers of Threat Hunt Missions"
 
 Threat hunt missions can be described as three different layers that are interconnected. Each of these layers can be developed in parallel or in sequence but the three of them are necessary for the successful execution of hunting missions. As a threat hunt mission progresses, each layer generates artefacts of particular types which capture the evolution of the hunt's activities.
 
-![mission-functional-levels.excalidraw](/diagrams/mission-functional-levels.excalidraw.png)
+![mission-functional-levels.excalidraw](/diagrams/mission-functional-levels.excalidraw.svg)
 
 <!--more-->
 

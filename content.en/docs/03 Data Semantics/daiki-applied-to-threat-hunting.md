@@ -10,7 +10,7 @@ title: "Threat Hunt Mission Categories"
 
 If we keep in mind that cyber threat hunting is all about data science applied to the discovery and disruption of cyber threats, it makes sense that we can employ DAIKI to bring clarity to data analytic approaches during threat hunting. DAIKI can be used to differentiate between threat hunting mission types depending on the stage of the semantic chain where they operate. As such, there are four main hunt approaches based on the level of informational connectedness we are working with:
 
-![daiki-hunt-types.excalidraw](/diagrams/daiki-hunt-types.excalidraw.png)
+![daiki-hunt-types.excalidraw](/diagrams/daiki-hunt-types.excalidraw.svg)
 
 ### Exploratory Data Analysis (EDA)
 

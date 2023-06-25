@@ -4,7 +4,7 @@ bookFlatSection: true
 title: "Intro to ADACOP"
 ---
 
-{{% resizeimage src="/diagrams/adacop-v2-2.png" width="600" height="600" position="center" %}}
+{{% resizeimage src="/diagrams/adacop-v1.svg" width="600" height="600" position="center" %}}
 
 Active Defence Adversarial Cyber Operations Framework or **ADACOP**, is a framework for sense-making and understanding the relationships between the different domains of active defence. ADACOP describes four tactical domains, namely: Design, Discover, Disrupt and Defend.
 
