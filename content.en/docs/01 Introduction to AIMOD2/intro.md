@@ -3,7 +3,7 @@ weight: 1
 title: "About"
 ---
 
-{{% resizeimage src="/diagrams/AIMOD2-origins-01.excalidraw.png" width="600" height="600" position="center" %}}
+{{% resizeimage src="/diagrams/AIMOD2-origins-01.excalidraw.svg" width="600" height="600" position="center" %}}
 
 # About
 
