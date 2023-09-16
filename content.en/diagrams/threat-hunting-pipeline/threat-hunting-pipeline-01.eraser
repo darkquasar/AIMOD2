@@ -21,8 +21,8 @@ Phases [icon: sequelize] {
     Ensure source teams make information available to the hunt function [icon: share-2]
   }
   Analyse {
-    Perform validation and triage of information [icon: check-square]
-    Perform hunt topic feasibility assessment [icon: clipboard]
+    Validate and triage information [icon: check-square]
+    Perform use-case feasibility assessment [icon: clipboard]
     Gather business context [icon: briefcase]
     Identify requirements [icon: list]
   }
