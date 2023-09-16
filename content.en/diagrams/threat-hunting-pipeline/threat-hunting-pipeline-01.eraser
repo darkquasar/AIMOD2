@@ -1,0 +1,43 @@
+// Define nodes and relationships
+Data Sources [icon: database] > Collect [icon: inbox]
+Collect > Analyse [icon: search]
+Analyse > Plan [icon: plan]
+Plan > Execute [icon: play-circle]
+Execute > Outcomes [icon: check-circle]
+
+// Define Groups
+Data Sources {
+  External Threat Actors [icon: user-x]
+  Adversarial Simulation (Red Team Purple Team Pentest) [icon: shield-off]
+  User Behavior Analytics (including simulations) [icon: users]
+  CSIRT Incidents [icon: alert-circle]
+  Application & System Vulnerabilities [icon: alert-triangle]
+}
+
+Phases [icon: sequelize] {
+  Collect {
+    Ensure that threat information is collected into one or several platforms [icon: inbox]
+    Ensure communication channels exist between source teams and the hunt function [icon: message-circle]
+    Ensure source teams make information available to the hunt function [icon: share-2]
+  }
+  Analyse {
+    Perform validation and triage of information [icon: check-square]
+    Perform hunt topic feasibility assessment [icon: clipboard]
+    Gather business context [icon: briefcase]
+    Identify requirements [icon: list]
+  }
+  Plan {
+    Designate Hunt Mission Lead [icon: user-check]
+    Determine Hunting Squad Composition [icon: users]
+    Select Hunt Mission Type [icon: map-pin]
+    Layout Hunt Mission [icon: map]
+  }
+  Execute {
+    Run Hunt Mission [icon: play-circle]
+  }
+  Outcomes {
+    Collect feedback on mission outcomes [icon: message-square]
+    Update Metrics [icon: bar-chart-2]
+    Identify Continuous Improvement Opportunities [icon: refresh-cw]
+  }
+}
